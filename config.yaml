@@ -1,0 +1,14 @@
+## Input directives
+participants_tsv: participants.tsv
+
+bids: /project/6007967/cfmm-projects/MacDonald/VTASN_3T/bids
+scans:
+    t1w: _acq-MPRAGE_run-01_T1w.nii.gz
+    t2w: _acq-SPACE_run-01_T2w.nii.gz
+    
+fs_deriv: /scratch/dimuthu1/project2/derivatives/hcp_360/freesurfer
+    
+neuroglia: /project/6007967/akhanf/singularity/bids-apps/khanlab_neuroglia-core_latest.sif
+connectome_workbench: /project/6007967/software/transparentsingularity/connectome-workbench_1.4.1_20191117.simg/connectome-workbench_1.4.1_20191117.simg
+freesurfer: /project/6050199/akhanf/singularity/bids-apps/khanlab_freesurfer_v6.0.1-subfields.img
+freesurfer_license: /project/6007967/akhanf/opt/freesurfer/.license
